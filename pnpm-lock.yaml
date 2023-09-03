@@ -78,8 +78,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(eslint@8.48.0)
       '@nuxt/module-builder':
-        specifier: ^0.5.0
-        version: 0.5.0(@nuxt/kit@3.7.0)(nuxi@3.7.2)(typescript@5.2.2)
+        specifier: ^0.5.1
+        version: 0.5.1(@nuxt/kit@3.7.0)(nuxi@3.7.3)(typescript@5.2.2)
       '@release-it/conventional-changelog':
         specifier: ^7.0.0
         version: 7.0.0(release-it@16.1.5)
@@ -87,8 +87,8 @@ importers:
         specifier: ^8.48.0
         version: 8.48.0
       joi:
-        specifier: ^17.10.0
-        version: 17.10.0
+        specifier: ^17.10.1
+        version: 17.10.1
       nuxt:
         specifier: ^3.7.0
         version: 3.7.0(eslint@8.48.0)(rollup@3.28.1)(typescript@5.2.2)(vue-tsc@1.8.8)
@@ -124,8 +124,8 @@ importers:
         specifier: latest
         version: 1.1.68
       '@nuxt/content':
-        specifier: ^2.8.1
-        version: 2.8.1(rollup@3.28.1)(vue@3.3.4)
+        specifier: ^2.8.2
+        version: 2.8.2(rollup@3.28.1)(vue@3.3.4)
       '@nuxt/devtools':
         specifier: ^0.8.2
         version: 0.8.2(nuxt@3.7.0)(rollup@3.28.1)(vite@4.4.9)
@@ -133,8 +133,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(eslint@8.48.0)
       '@nuxthq/elements':
-        specifier: npm:@nuxthq/elements-edge@0.0.1-28223223.d8921b4
-        version: /@nuxthq/elements-edge@0.0.1-28223223.d8921b4(@nuxt/content@2.8.1)(@nuxthq/ui@)(vue@3.3.4)
+        specifier: npm:@nuxthq/elements-edge@0.0.1-28229031.3892e88
+        version: /@nuxthq/elements-edge@0.0.1-28229031.3892e88(@nuxt/content@2.8.2)(@nuxthq/ui@)(vue@3.3.4)
       '@nuxthq/studio':
         specifier: ^0.13.4
         version: 0.13.4(rollup@3.28.1)
@@ -154,8 +154,8 @@ importers:
         specifier: ^8.48.0
         version: 8.48.0
       joi:
-        specifier: ^17.10.0
-        version: 17.10.0
+        specifier: ^17.10.1
+        version: 17.10.1
       nuxt:
         specifier: ^3.7.0
         version: 3.7.0(eslint@8.48.0)(rollup@3.28.1)(typescript@5.2.2)(vue-tsc@1.8.8)
@@ -1286,8 +1286,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/content@2.8.1(rollup@3.28.1)(vue@3.3.4):
-    resolution: {integrity: sha512-uFhZXuP/5MVkK8rhj/1QPQKasW1ThyjE9JfLwTF0QEH/KJWgDg1FssKhGY7aCidR3ycUI+V3zHd407uSrdoCFw==}
+  /@nuxt/content@2.8.2(rollup@3.28.1)(vue@3.3.4):
+    resolution: {integrity: sha512-fi5/axuYNGccJ/dXyaf5C/WqgEd5wSijpGHZ9O+pH7754S2NeKyx8fUFGfXsLN9VyJP+Mx8EUihfWKJm09SCRA==}
     dependencies:
       '@nuxt/kit': 3.7.0(rollup@3.28.1)
       '@nuxtjs/mdc': /@nuxtjs/mdc-edge@0.1.4-28223495.3036a1e(rollup@3.28.1)
@@ -1464,18 +1464,18 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/module-builder@0.5.0(@nuxt/kit@3.7.0)(nuxi@3.7.2)(typescript@5.2.2):
-    resolution: {integrity: sha512-RTLZa+FY0QffqXXNAcrCB4ttEOhPcNTy845yHd+xP92AIq1I8DVNjJMRuKNQOw7bBzZkL6SJU8FgpRtr7fiKaQ==}
+  /@nuxt/module-builder@0.5.1(@nuxt/kit@3.7.0)(nuxi@3.7.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-O39UrOFbNgL27urwDqeMgXeYiNIUvp73nsmtt7jm9JDcMVIWykuUzyBPYtHif7gq5ElzIjjmDw9zdRGgyMzo+w==}
     hasBin: true
     peerDependencies:
       '@nuxt/kit': ^3.7.0
-      nuxi: ^3.7.2
+      nuxi: ^3.7.3
     dependencies:
       '@nuxt/kit': 3.7.0(rollup@3.28.1)
       consola: 3.2.3
       mlly: 1.4.1
       mri: 1.2.0
-      nuxi: 3.7.2
+      nuxi: 3.7.3
       pathe: 1.1.1
       unbuild: 2.0.0(typescript@5.2.2)
     transitivePeerDependencies:
@@ -1611,13 +1611,13 @@ packages:
       - vue-tsc
     dev: true
 
-  /@nuxthq/elements-edge@0.0.1-28223223.d8921b4(@nuxt/content@2.8.1)(@nuxthq/ui@)(vue@3.3.4):
-    resolution: {integrity: sha512-MXfeEn9YtYdFfHxyUzkOFu57QoIIGnQCcZgdpuj0Y8VdL+cpC63hd8cmMe+iIzWntu37Uehz2LiJRLi71276dQ==}
+  /@nuxthq/elements-edge@0.0.1-28229031.3892e88(@nuxt/content@2.8.2)(@nuxthq/ui@)(vue@3.3.4):
+    resolution: {integrity: sha512-yiWEtAq/LBXncwSGqxbDnpQCNgHwHgbYk54ukMyq6DL7pcN47rIsBTsIWbwHrVcBqVNpfa0clf36i6l84mchTg==}
     peerDependencies:
       '@nuxt/content': latest
       '@nuxthq/ui': npm:@nuxthq/ui-edge@latest
     dependencies:
-      '@nuxt/content': 2.8.1(rollup@3.28.1)(vue@3.3.4)
+      '@nuxt/content': 2.8.2(rollup@3.28.1)(vue@3.3.4)
       '@nuxthq/ui': 'link:'
       '@vueuse/core': 10.4.1(vue@3.3.4)
       lodash-es: 4.17.21
@@ -6846,8 +6846,8 @@ packages:
     resolution: {integrity: sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==}
     hasBin: true
 
-  /joi@17.10.0:
-    resolution: {integrity: sha512-hrazgRSlhzacZ69LdcKfhi3Vu13z2yFfoAzmEov3yFIJlatTdVGUW6vle1zjH8qkzdCn/qGw8rapjqsObbYXAg==}
+  /joi@17.10.1:
+    resolution: {integrity: sha512-vIiDxQKmRidUVp8KngT8MZSOcmRVm2zV7jbMjNYWuHcJWI0bUck3nRTGQjhpPlQenIQIBC5Vp9AhcnHbWQqafw==}
     dependencies:
       '@hapi/hoek': 9.3.0
       '@hapi/topo': 5.1.0
@@ -8657,6 +8657,14 @@ packages:
 
   /nuxi@3.7.2:
     resolution: {integrity: sha512-WNczi4X5ms8v63BTlCH+ZZDPzoFI0/V5KW8an4Zv6qOngtONHALw1u6qvtcAqG2tuMDu8gdJuzxMZL2845Dbig==}
+    engines: {node: ^14.18.0 || >=16.10.0}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: true
+
+  /nuxi@3.7.3:
+    resolution: {integrity: sha512-Cg+ygRmhonE6PwAtDeKvKU/0VRqEyzmSSoJYfr0MzwIxQYrBSnLvw0z3UgJl/8MgFKjiZ5Y4wBUEiRsUw8O6uw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     hasBin: true
     optionalDependencies:
@@ -12198,7 +12206,7 @@ packages:
     hasBin: true
     dependencies:
       axios: 0.27.2
-      joi: 17.10.0
+      joi: 17.10.1
       lodash: 4.17.21
       minimist: 1.2.8
       rxjs: 7.8.1

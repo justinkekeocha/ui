@@ -52,10 +52,10 @@
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
-    "@nuxt/module-builder": "^0.5.0",
+    "@nuxt/module-builder": "^0.5.1",
     "@release-it/conventional-changelog": "^7.0.0",
     "eslint": "^8.48.0",
-    "joi": "^17.10.0",
+    "joi": "^17.10.1",
     "nuxt": "^3.7.0",
     "release-it": "^16.1.5",
     "typescript": "^5.2.2",
